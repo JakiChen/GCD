@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!-- saved from url=(0101)http://www.google.com/design/spec-vr/designing-for-google-cardboard/physiological-considerations.html -->
+<html class="qp-ui" data-qp-ui="{
+  &#39;Futurizr&#39;: {
+    &#39;hasTouch&#39;: &#39;touch&#39;
+  }
+}" data-qp-ui-data-id="qp:0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./02_files/main.css" rel="stylesheet">
+    <link href="./02_files/print.css" rel="stylesheet">
+        <link href="./02_files/css" rel="stylesheet" type="text/css">
+    
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta name="keywords" content="">
+    <title>Physiological considerations - Designing for Google Cardboard - VR design guidelines</title>
+    <meta itemprop="name" content="Physiological considerations - Designing for Google Cardboard - VR design guidelines">
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/vr_v_1/social.png">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Physiological considerations - Designing for Google Cardboard - VR design guidelines">
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/vr_v_1/social.png">
+    <meta property="og:site_name" content="VR design guidelines">
+    <meta property="article:section" content="Physiological considerations - Designing for Google Cardboard">
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Physiological considerations</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Designing for Google Cardboard</Attribute>
+      <Attribute name="section_slug">designing-for-google-cardboard</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+<script async="" src="./02_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+
+  <body class="section-designing-for-google-cardboard noninitial-chapter color-default qp-ui qp-ui-mask" data-qp-ui="{ &#39;Mask&#39;: {} }" data-qp-ui-data-id="qp:1">
+    <header>
+  <div class="header-wrapper">
+    <div class="header-title">      <span class="section-title">Designing for Google Cardboard</span>
+      <span class="chapter-title">Physiological considerations</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui qp-ui-side-nav-toggle" data-qp-ui="{ &#39;SideNavToggle&#39;: {} }" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:2">Show navigation</button>
+</nav>
+
+    
+    
+    
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ &#39;SideNavDrawer&#39;: {} }" data-qp-ui-data-id="qp:3">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="./02_files/Google_Logo.svg" alt="Google logo"></span>
+    <nav>
+        <dl>
+            <dt class="qp-ui">Designing for Google Cardboard
+            </dt>
+            <dd>
+                <a class="" href="01.htm">A new dimension
+                </a>
+                <a class="nav_selected" href="02.htm">Physiological considerations
+                </a>
+            </dd>
+            <dt class="qp-ui">Interactive patterns
+            </dt>
+            <dd>
+                <a class="" href="03.htm">Setup
+                </a>
+                <a class="" href="04.htm">Controls
+                </a>
+                <a class="" href="06.htm">Feedback
+                </a>
+                <a class="" href="07.htm">Display reticle
+                </a>
+            </dd>
+        </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google ©</p>
+      <a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">Physiological considerations
+          </h1>
+    <div class="chapter-content">
+        
+        <div class="chapter-intro">
+            <p>Motion sickness is caused by the disparity between what one feels and what one expects to feel. Many automobile passengers become carsick if they are not looking out of the windows of the vehicle, yet drivers rarely get carsick because they can anticipate the sensations of movement before they happen.</p><p>Evolution gives clues about why this disparity exists. Nausea induced by eating poisonous foods defended our ancestors by removing poison before it led to death. When you receive input from your sense of balance (vestibular system) that differs from your visual system, the mismatch results in nausea. The ability to feel motion sickness evolved as a survival skill.</p><p>In the modern age, motion sickness is more of a nuisance than a benefit. App developers and designers have the responsibility to follow the guidelines below to reduce the chances of users experiencing simulator sickness.</p>
+
+      
+      
+    </div>
+    
+        <nav class="chapter-toc">
+      <h1>Contents</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="02.htm#physiological-considerations-head-tracking" data-qp-ui-data-id="qp:4">Head tracking
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="02.htm#physiological-considerations-user-control-of-movement" data-qp-ui-data-id="qp:5">User control of movement
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="02.htm#physiological-considerations-use-constant-velocity" data-qp-ui-data-id="qp:6">Use constant velocity
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="02.htm#physiological-considerations-grounding-with-fixed-objects" data-qp-ui-data-id="qp:7">Grounding with fixed objects
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="02.htm#physiological-considerations-brightness-changes" data-qp-ui-data-id="qp:8">Brightness changes
+                </a></li>
+              </ul>
+    </nav>
+    
+    <div class="article-list">
+                        <div id="physiological-considerations-head-tracking" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:9">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:a">
+    Head tracking
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>Head tracking enables objects in virtual space to maintain fixed positions regardless of how you move your head, creating the perception of a virtual world surrounding you.</p><p>The most important guideline in designing for virtual reality is to always maintain head tracking. Never stop tracking the user’s head position inside of the application. Even a short pause in head tracking will cause some users to feel ill.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./02_files/physiologicalconsiderations_headtracking.png">
+                    </div>
+                        </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>Render 2D splash screens in 3D space</h3>
+    <div class="module-body">
+    <p>Fixing the splash screen, or any graphic, to the user’s head and turning off head tracking may cause discomfort.</p><p>When displaying a splash screen, with a logo or title sequence, render 2D sprites in a 3D virtual space and maintain head tracking. VR applications using splash screens that only track head rotation to one degree of freedom (1DOF) can avoid nausea for most users, but 3DOF (rotation, pitch, and yaw) is still preferable. </p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./02_files/physiologicalconsiderations_headtracking_2d.png">
+                    </div>
+                        </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+              <section class="moduleB1">
+          <h3>Avoid slight freezes in head tracking</h3>
+        <div class="module-body">
+      <p>When testing your app, pay close attention to when head tracking freezes unintentionally. These moments may occur when loading a new scene or pushing the capabilities of the device. &nbsp;If your app consistently drops head tracking at a particular time, fade the screen to black prior to losing tracking. &nbsp;</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+              <section class="moduleB1">
+          <h3>What if you can’t have head tracking turned on?</h3>
+        <div class="module-body">
+      <p>Maintaining audio feedback when the screen fades to black will help establish that the app is still running, and indicate it is loading new information. </p><p>Filling the entire screen with a changing color or brightness level can provide visual feedback without the disorientation of turning off tracking. This is because the screen is changing as a whole, and there aren’t distinct objects that fail to track.</p>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  <div id="physiological-considerations-user-control-of-movement" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:b">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:c">
+    User control of movement
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>It is important that users are not “passengers” in the app as much as active drivers. Users should remain in control of their movement inside the app, so that they will be able to actively anticipate what they are about to see.</p><p>There are some exceptions to this guideline. Rollercoaster apps, or other situations where the user experiences a fixed set of movements, are more likely to cause discomfort for some users (as well as exciting thrills!). &nbsp;Fundamentally, users should still remain in control. It is better to let them start the roller coaster, versus having it start on its own.</p>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  <div id="physiological-considerations-use-constant-velocity" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:d">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:e">
+    Use constant velocity
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>In real life, we feel acceleration and deceleration, but we do not feel velocity. &nbsp;For example, when flying in an airplane, we feel the takeoff and landing. However, while the plane is traveling at a constant cruising speed of 500mph, we don’t feel anything (assuming there is no turbulence). Similarly, you won’t feel a constant velocity when traveling in a car, only changes in the car’s velocity. </p><p>When the user virtually accelerates or decelerates inside of your application, they will not feel the change in real life. The disparity between what they are seeing and what they are feeling may cause discomfort. You can reduce this discomfort by trying to keep the user at a constant velocity when they are moving inside of your app. &nbsp;</p>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  <div id="physiological-considerations-grounding-with-fixed-objects" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:f">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:g">
+    Grounding with fixed objects
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleF1">
+  <div class="figure-group">
+    <div class="figure-row">
+      <figure>
+      <div class="media">
+                  <img src="./02_files/physiologicalconsiderations_groundingobjects.png">
+              </div>
+            </figure>
+    </div>
+  </div>
+</section>
+
+        </div>
+              <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>If the user is sitting while using a virtual reality device, placing the user in a stationary virtual environment (such as in a virtual chair) will help them reconcile the sensation of movement in VR with the fact that they are not moving in real life. You can ground the user with virtual cockpits, chairs, or other stationary objects to explain why they are sitting – despite the fact that VR shows them moving.</p><p>If the user is near a very large virtual object that is moving, they may mistakenly believe that they are moving, as opposed to the large object moving. This may cause discomfort. Avoid this by including more fixed points of reference in the user’s environment. </p>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  <div id="physiological-considerations-brightness-changes" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:h">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:i">
+    Brightness changes
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>Be mindful of sudden changes in brightness. Given the proximity of the screen to the user’s eyes, transitioning the user from a dark scene to a bright scene may cause discomfort as they acclimate to the new level of brightness. It is similar to stepping out of a dark room into the sun.</p>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-designing-for-google-cardboard color-default">&nbsp;</div>
+    <div class="footer-grid-L section-designing-for-google-cardboard">
+            <a class="footer-text" href="01.htm">
+        <img class="arrow-L" alt="" src="./02_files/Arrow-left_24x24px.svg">
+        <span>Previous</span>
+        <div>
+                      A new dimension
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-interactive-patterns color-default">&nbsp;</div>
+    <div class="footer-grid-R section-interactive-patterns">
+            <a class="footer-text" href="03.htm">
+        <img class="arrow-L" alt="" src="./02_files/Arrow-right_24x24px.svg">
+        <span>Next</span>
+        <div>
+                      Interactive patterns
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="./02_files/picturefill.min.js"></script>
+    <script src="./02_files/main.js"></script>
+    
+  
+
+<div class="qp-ui-mask-modal"></div></body></html>
